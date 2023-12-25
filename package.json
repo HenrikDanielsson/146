@@ -4,7 +4,7 @@
 	"homepage": "https://henrikdanielsson.github.io/",
 	"private": true,
 	"dependencies": {
-		"@hjdse/146north": "^0.1.9",
+		"@hjdse/logotype": "^0.1.0",
 		"@testing-library/jest-dom": "^5.16.3",
 		"@testing-library/react": "^12.1.4",
 		"@testing-library/user-event": "^13.5.0",

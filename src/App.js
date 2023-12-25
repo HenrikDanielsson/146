@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Logo } from '@hjdse/146north';
+import { Logo } from '@hjdse/logotype';
 import { langTxt } from './lang/language.js';
 import './App.css';
 
