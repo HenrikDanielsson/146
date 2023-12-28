@@ -19,7 +19,7 @@ function App() {
 	return (
 		<div id="App" className="App">
 			<Logo
-				text="Layout | Code | Photography"
+				text="Code | Design | Photography"
 				size={!lang ? '100%' : '60%'}
 				margin={!lang ? '24vh,5vh' : '10vh,5vh'}
 			/>
