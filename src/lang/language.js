@@ -1,11 +1,13 @@
 import React from 'react';
+import ReactGA from 'react-ga4';
+ReactGA.initialize('G-TJZN4CQ1DJ');
 
 export const langTxt = {
 	sve: {
-		load: 'Vänligen vänta..',
+		load: <main className="mb-300">Vänligen vänta..</main>,
 		text: (
 			<main>
-				<p>Hej</p>
+				<h3 className="center">Hej</h3>
 				<p>
 					Mitt namn är Henrik och jag gillar webutveckling, fotografering och
 					video redigering. Se denna sida som en "placeholder" för framtida
@@ -30,10 +32,10 @@ export const langTxt = {
 		),
 	},
 	eng: {
-		load: 'Please wait...',
+		load: <main className="mb-300">Please wait..</main>,
 		text: (
 			<main>
-				<p>Hello</p>
+				<h3 className="center">Hello</h3>
 				<p>
 					My name is Henrik, I dabble a bit in webdev, photography and
 					videography. Consider this a placeholder for future projects.

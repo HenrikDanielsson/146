@@ -18,39 +18,40 @@ function App() {
 
 	return (
 		<div id="App" className="App">
-			<Logo
-				text="Code | Design | Photography"
-				size={!lang ? '100%' : '60%'}
-				margin={!lang ? '24vh,5vh' : '10vh,5vh'}
-			/>
-			{loading && (
-				<main>
-					<p className="center">{langTxt[lang].load}</p>
-				</main>
-			)}
+			<header>
+				<Logo
+					text="Code | Design | Photography"
+					logosize={!lang ? '100%' : '80%'}
+					margin={!lang ? '24vh,5vh' : '10vh,4vh'}
+				/>
+			</header>
+			{loading && langTxt[lang].load}
 			{!lang && (
-				<main>
-					<p>Please choose language:</p>
-					<p className="center">
+				<main className="center">
+					<p className=" mb-100">Please choose language:</p>
+					<p className="center mb-300">
 						<span
+							className="pointer pr-50"
 							onClick={() => {
 								handleclick('eng');
 							}}
 						>
-							English
+							🇬🇧 English
 						</span>{' '}
 						|{' '}
 						<span
+							className="pointer pl-50"
 							onClick={() => {
 								handleclick('sve');
 							}}
 						>
-							Swedish
+							Swedish 🇸🇪
 						</span>
 					</p>
 				</main>
 			)}
 			{!loading && lang && langTxt[lang].text}
+			<footer>&copy; 2023 Henrik Danielsson</footer>
 		</div>
 	);
 }
