@@ -14,15 +14,21 @@ export const langTxt = {
 					projekt.
 				</p>
 				<p>
-					Just nu gör jag en sida som ska det göra enklare för oss tekniker som
-					jobbar med Aptus och RCO att addressera dessa, sidan hittar ni på:
-				</p>
-				<p className="center">
-					<a href="https://binary.146.se">binary.146.se</a>
+					27/1-24:
+					<br />
+					Senaste projektet är en sida som översätter morse kod till text eller
+					tvärtom: <br />
+					💬 <a href="https://morse.146.se">Translate your morse.</a>
 				</p>
 				<p>
-					Vill man hellre se mina gamla bilder och filmklipp så finns dom här:
+					28/12-23:
+					<br />
+					Just nu gör jag en sida som ska det göra enklare för oss tekniker som
+					jobbar med Aptus och RCO att addressera dessa, sidan hittar ni på:
+					<br />
+					🤖 <a href="https://binary.146.se">binary.146.se</a>
 				</p>
+				<p>Vill man se mina gamla bilder och filmklipp så finns dom här:</p>
 				<p>
 					<a href="https://www.instagram.com/146_north">Instagram</a>,{' '}
 					<a href="https://www.500px.com/">500px</a> eller{' '}
@@ -41,12 +47,18 @@ export const langTxt = {
 					videography. Consider this a placeholder for future projects.
 				</p>
 				<p>
+					2024-01-27
+					<br />
+					My latest project is a morse code translator.
+					<br />
+					💬 <a href="https://morse.146.se">Translate your morse.</a>
+				</p>
+				<p>
+					2023-12-28: <br />
 					Right now I'm working on a site that will make it easier for us
 					technicians working with Aptus and RCO to address these, you can find
-					the site at:
-				</p>
-				<p className="center">
-					<a href="https://binary.146.se">binary.146.se</a>
+					the site at: <br />
+					🤖 <a href="https://binary.146.se">binary.146.se</a>
 				</p>
 				<p>
 					If you prefer to see my pictures and videos, they are available here:
